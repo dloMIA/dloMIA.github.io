@@ -1,0 +1,303 @@
+/* Cross Browser Compatability CSS */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+/* Write your CSS styles here */
+
+body {
+    font-family: tahoma;
+    font-weight: 500;
+    color: black;
+    background: whitesmoke;
+}
+
+
+ul{
+ 	margin: 0px;
+    color: darkslateblue;
+   }
+
+ol{
+ 	margin: 0px;
+   	color: darkslateblue;
+	}
+
+
+
+
+
+/*
+#modal {
+	position: fixed;
+	background: red;
+    font-weight: 900;
+    color:darkslateblue;
+    border: solid 5px darkslateblue;
+    text-align: left;
+    padding: 5px;
+    width: 300px;
+	height: 50px;
+	top: 300px;
+	left: 200px;
+	z-index: 5;
+    display:none;
+	}
+
+
+#modal2 {
+	position: fixed;
+	background: lightyellow;
+    font-weight: 900;
+    color:darkslateblue;
+    border: solid 5px darkslateblue;
+    text-align: center;
+    padding: 5px;
+    width: 150px;
+	height: 50px;
+	top: 300px;
+	left: 200px;
+	z-index: 5;
+    display:none;
+	}
+	
+#modal h4{
+	font-size: 30px;
+}
+ */
+
+#header {
+	clear: both;
+	float: right;
+	margin-right: 50px;
+}
+
+#top {
+	text-shadow: 1px 1px 4px #000000;
+	clear: both;
+	overflow: auto;
+	background: url('http://www.wowclub.in/assets/itineary_thumb/thumbnailtanzania.jpg') no-repeat ;
+	background-size: cover;
+	color: white;
+    margin: 0px;
+    height: 500px;
+    margin-bottom: 25px;
+    
+}  
+
+#top p{
+	margin: 15px;
+    color:gold
+    }
+
+#top h1{
+    margin-top:150px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size:46px;
+    font-weight:500;
+}
+
+#top h2{
+    text-align: center;
+   	font-size: 20px;
+    font-weight:500;
+}
+
+#pitch{
+	clear:both;
+}
+
+#explore{
+	display:block;
+   	margin: 0 auto;
+	background: rgba(119, 136, 153, 0.4);
+	color: white;
+   	font-size: 20px;	
+   	border: none;
+   	margin-top: 30px;
+   	border-radius: 5px; 
+   	width: 120px;
+}
+#middle{
+	margin-bottom: 25px;
+}
+
+#middle h1 {
+	text-align:center;
+	color: grey;
+	font-size: 28px;	
+   	font-weight: 900;
+}
+
+#middle h2 {
+	text-align:center;
+	color: grey;
+	font-size: 22px;	
+   	font-weight: 500;
+}
+
+#bottom {
+	width:100%;
+	}
+
+#inside {
+	display: flex;
+  	justify-content: center; 
+   	overflow: auto;
+}
+
+#bottom p {
+	font-weight: 400;
+	
+}
+
+#article1 {
+	background: url('https://www.ucl.ac.uk/enterprise/enterprise-case-studies/images/UCL_Travel_Guide_300x.jpg') no-repeat ;
+	background-size: cover;
+	color: white;
+    margin: 5px;
+    padding: 5px;
+    height: 300px;
+    width: 300px;
+    float:left;   
+}
+#article2 {
+	background: url('http://www.romancetravelconcierge.com/wp-content/themes/romance/images/african-destinations.jpg') no-repeat ;
+	background-size: cover;
+	color: white;
+    margin: 5px;
+    padding: 5px;
+    height: 300px;
+    width: 300px;
+    float:left;   
+}
+#article3 {
+	background: url('http://exotichikes.com/wp-content/uploads/2013/12/group-selfie-httpshwayze23.wordpress.com20131113flatiron-mountain-4860-ft-siphon-draw-trail.jpg') no-repeat ;
+	background-size: cover;
+	color: white;
+    margin: 5px;
+    padding: 5px;
+    height: 300px;
+    width: 300px;
+    float:left;   
+}
+
+
+#art1{
+	display:block;
+   	margin: 0 auto;
+	background: rgba(135, 206, 250, 0.7);
+	text-align: center;
+	color: white;
+   	font-size: 18px;	
+   	font-weight: 900;
+   	border: none;
+   	
+}
+
+#art2{
+	display:block;
+   	margin: 0 auto;
+	background: rgba(221, 160, 221, 0.7);
+	text-align: center;
+	color: white;
+   	font-size: 18px;	
+   	font-weight: 900;
+   	border: none;
+   	
+}
+#art3{
+	display:block;
+   	margin: 0 auto;
+	background: rgba(173,255,47, 0.7);
+	text-align: center;
+	color: white;
+   	font-size: 18px;	
+   	font-weight: 900;
+   	border: none;
+   
+}
+
+
+
+
+#bottom {
+	float: left;
+	margin-bottom: 15px;
+	overflow:auto;
+}
+
+
+#fb{
+	background: blue;
+	width: 100px;
+}
+
+
+
+
+
+.footer {
+    background:rgb(240,225,115);
+    color: gold;
+    font-weight: 900;
+    margin: 0px;
+    padding: 15px;
+    clear:both;
+    color: darkslateblue;
+}
+
+
+.ad-banner{
+	display:block;
+   	margin: 0 auto;
+	clear:both;
+	background: rgb(173,255,47);
+	color:	grey;
+	height: 100px;
+	width: 80%;
+	margin-bottom: 25px;
+	border: 5px solid darkslateblue;
+	
+	
+}
